@@ -1,2 +1,2 @@
 # 4-in-a-Line---Game
-Game html5- 4 in a Line
+Trabalho para a matéria de Programação Web utilizando html5.

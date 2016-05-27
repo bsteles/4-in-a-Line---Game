@@ -1,0 +1,225 @@
+<!DOCTYPE HTML>
+<html lang="pt-br">
+
+<head>
+<title>TODO supply a title</title>
+<meta charset="UTF-8">
+<link rel="stylesheet" type="text/css" href="css/estilo.css" />
+<script type="text/javascript" src="js/java.js">
+	
+</script>
+</head>
+
+
+<body>
+	<audio id="click" src="multimidia/click.mp3"></audio>
+	<audio id="vitoria" src="multimidia/vitoria.mp3"></audio>
+	<audio id="empate" src="multimidia/empate.mp3"></audio>
+
+	<div id="pagina">
+		<header id="cabecalho"> </header>
+
+		<section id="tabuleiro">
+			<h2></h2>
+			<div class="linha">
+				<div class="celula" onclick="jogar(0)">
+					<img />
+				</div>
+				<div class="celula" onclick="jogar(1)">
+					<img />
+				</div>
+				<div class="celula" onclick="jogar(2)">
+					<img />
+				</div>
+				<div class="celula" onclick="jogar(3)">
+					<img />
+				</div>
+				<div class="celula" onclick="jogar(4)">
+					<img />
+				</div>
+				<div class="celula" onclick="jogar(5)">
+					<img />
+				</div>
+				<div class="celula" onclick="jogar(6)">
+					<img />
+				</div>
+			</div>
+
+			<div class="linha">
+				<div class="celula" onclick="jogar(7)">
+					<img />
+				</div>
+				<div class="celula" onclick="jogar(8)">
+					<img />
+				</div>
+				<div class="celula" onclick="jogar(9)">
+					<img />
+				</div>
+				<div class="celula" onclick="jogar(10)">
+					<img />
+				</div>
+				<div class="celula" onclick="jogar(11)">
+					<img />
+				</div>
+				<div class="celula" onclick="jogar(12)">
+					<img />
+				</div>
+				<div class="celula" onclick="jogar(13)">
+					<img />
+				</div>
+
+			</div>
+
+			<div class="linha">
+				<div class="celula" onclick="jogar(14)">
+					<img />
+				</div>
+				<div class="celula" onclick="jogar(15)">
+					<img />
+				</div>
+				<div class="celula" onclick="jogar(16)">
+					<img />
+				</div>
+				<div class="celula" onclick="jogar(17)">
+					<img />
+				</div>
+				<div class="celula" onclick="jogar(18)">
+					<img />
+				</div>
+				<div class="celula" onclick="jogar(19)">
+					<img />
+				</div>
+				<div class="celula" onclick="jogar(20)">
+					<img />
+				</div>
+
+			</div>
+
+			<div class="linha">
+				<div class="celula" onclick="jogar(21)">
+					<img />
+				</div>
+				<div class="celula" onclick="jogar(22)">
+					<img />
+				</div>
+				<div class="celula" onclick="jogar(23)">
+					<img />
+				</div>
+				<div class="celula" onclick="jogar(24)">
+					<img />
+				</div>
+				<div class="celula" onclick="jogar(25)">
+					<img />
+				</div>
+				<div class="celula" onclick="jogar(26)">
+					<img />
+				</div>
+				<div class="celula" onclick="jogar(27)">
+					<img />
+				</div>
+
+			</div>
+
+			<div class="linha">
+				<div class="celula" onclick="jogar(28)">
+					<img />
+				</div>
+				<div class="celula" onclick="jogar(29)">
+					<img />
+				</div>
+				<div class="celula" onclick="jogar(30)">
+					<img />
+				</div>
+				<div class="celula" onclick="jogar(31)">
+					<img />
+				</div>
+				<div class="celula" onclick="jogar(32)">
+					<img />
+				</div>
+				<div class="celula" onclick="jogar(33)">
+					<img />
+				</div>
+				<div class="celula" onclick="jogar(34)">
+					<img />
+				</div>
+			</div>
+
+			<div class="linha">
+				<div class="celula" onclick="jogar(35)">
+					<img />
+				</div>
+				<div class="celula" onclick="jogar(36)">
+					<img />
+				</div>
+				<div class="celula" onclick="jogar(37)">
+					<img />
+				</div>
+				<div class="celula" onclick="jogar(38)">
+					<img />
+				</div>
+				<div class="celula" onclick="jogar(39)">
+					<img />
+				</div>
+				<div class="celula" onclick="jogar(40)">
+					<img />
+				</div>
+				<div class="celula" onclick="jogar(41)">
+					<img />
+				</div>
+			</div>
+
+		</section>
+
+		<aside id="lateral">
+
+			<form id="tabela">
+				<input type="button" value="Reset" onclick="novoJogo()">
+
+				<table id="placar">
+
+					<caption>Placar</caption>
+					<tr>
+						<td>
+							<figure class="img/foto-legenda">
+								<img src="img/1.jpg" />
+								<figcaption>
+									<h3>Payer 1</h3>
+								</figcaption>
+							</figure>
+						</td>
+						<td class="nb">X</td>
+						<td>
+							<figure class="img/foto-legenda">
+								<img src="img/2.jpg" />
+								<figcaption>
+									<h3>Payer 2</h3>
+								</figcaption>
+							</figure>
+						</td>
+					</tr>
+					<tr>
+						<td id="p1"></td>
+						<td class="nb"></td>
+						<td id="p2"></td>
+					</tr>
+
+				</table>
+				<p>
+				<p />
+				<p>
+				<p />
+				<p>
+				<p />
+
+				<input type="button" value="New Match" onclick="novaPartida()" />
+			</form>
+		</aside>
+		<footer id="rodape">
+			IFBA-Vitória da Conquista, Ba.<br /> Curso de Sistemas de Informação<br />
+			Disciplina de programação web ministrada pelo Prof. Stênio Longo<br />
+			<br /> Copyright 2016 - by Bruno Teles & Isaac Silva.
+		</footer>
+	</div>
+
+</body>
+</html>

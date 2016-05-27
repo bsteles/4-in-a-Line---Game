@@ -1,0 +1,86 @@
+@charset "UTF-8";
+
+header {
+	background: url(../img/4l.jpg) no-repeat 540px 0px;
+	color: black;
+	height: 150px;
+}
+
+body {
+	background-color: yellow;
+	background: url(../img/puzzle2.jpg) 0px 100%;
+}
+
+div#pagina {
+	width: 1200px;
+	background: black;
+	margin: 10px 70px;
+}
+
+section#tabuleiro { //
+	display: block;
+	height: 550px;
+	width: 700px;
+	float: left;
+	background: seagreen;
+}
+
+section#tabuleiro div.linha {
+	margin: auto;
+	width: 512px;
+	text-align: center;
+}
+
+section#tabuleiro div.celula {
+	border-style: dotted;
+	border-color: white;
+	border-width: 2px;
+	width: 64px;
+	height: 70px;
+	float: left;
+}
+
+aside#lateral {
+	height: 550px;
+	width: 500px;
+	float: right;
+	background: seagreen;
+}
+
+aside#lateral form#tabela {
+	width: 370px;
+	border-style: ridge;
+	height: 440px;
+	font-size: x-large;
+	background: rgba(255, 255, 255, .5);
+}
+
+aside#lateral input {
+	font-weight: bold;
+	color: red;
+	height: 40px;
+	width: 150px;
+	margin-left: 100px;
+}
+
+table#placar {
+	margin-top: 30px;
+}
+
+table#placar td {
+	border-style: ridge;
+	text-align: center;
+	font-weight: bold;
+}
+
+table#placar td#nb {
+	border-style: none;
+}
+
+footer#rodape {
+	height: 100px;
+	color: white;
+	font-size: 11px;
+	text-align: right;
+	clear: both;
+}
